@@ -17,10 +17,6 @@ namespace QLKS2
         {
             InitializeComponent();
         }
-        private void mnuPhieu_Click(object sender, EventArgs e)
-        {
-            // TODO: Xử lý khi click vào mục Phiếu
-        }
 
         private void frmMain_Load(object sender, EventArgs e)
         {
@@ -30,11 +26,6 @@ namespace QLKS2
         {
             Class.Function.Disconnect();
             Application.Exit();
-
-        }
-
-        private void mnuDanhMuc_Click(object sender, EventArgs e)
-        {
 
         }
 
